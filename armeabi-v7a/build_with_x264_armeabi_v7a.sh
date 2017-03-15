@@ -56,15 +56,11 @@ EXTRA_LDFLAGS="-L./${EXTRA_DIR}/lib"
     --enable-bsf=h264_mp4toannexb \
     --enable-zlib \
     --enable-static \
+    --enable-postproc \
+    --enable-avdevice \
     --disable-shared \
     --disable-asm \
     --disable-doc \
-    --disable-protocols \
-    --disable-bsfs \
-    --disable-vda \
-    --disable-iconv \
-    --disable-indevs \
-    --disable-outdevs \
     --disable-ffprobe \
     --disable-ffplay \
     --disable-ffmpeg \
